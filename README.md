@@ -25,7 +25,7 @@ Neste repositório, você encontrará os seguintes arquivos:
 <!-- [VÍDEO]: <https://youtu.be/q-Z9jdCIuzk> -->
 [DOCUMENTAÇÃO]: <https://drive.google.com/file/d/15kFAlcC83LrfKhE0EY6Q0fvLMoV3fz56/view?usp=share_link>
 [ARTIGO]: <https://drive.google.com/file/d/1VwOb8f_wnxaSdRCm5TaePb-2nLBWyTUo/view?usp=share_link>
-[APLICATIVO]: <https://www.mediafire.com/file/r50be7sp7lm27hi/IFInfo_28-02.apk>
+[APLICATIVO]: <https://www.mediafire.com/download/ltly4xemtyzwefc>
 
 ## 🎬 Demonstração em vídeo
 <!--   ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif) -->
