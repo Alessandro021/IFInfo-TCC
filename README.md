@@ -17,18 +17,18 @@ Neste repositório, você encontrará os seguintes arquivos:
 
 ## 🔗 Links
 
-- 🎬 [VÍDEO] - Vídeo com explicação do funcionamento do aplicativo e do servidor.
+<!-- - 🎬 [VÍDEO] - Vídeo com explicação do funcionamento do aplicativo e do servidor. -->
 - 📖 [DOCUMENTAÇÃO] - Acesse a documentação do aplicativo.
 - 📝 [ARTIGO] - Acesse o artigo do aplicativo.
 - 📱 [APLICATIVO] - Clique e faça o download do aplicativo.
 
+<!-- [VÍDEO]: <https://youtu.be/q-Z9jdCIuzk> -->
 [DOCUMENTAÇÃO]: <https://drive.google.com/file/d/15kFAlcC83LrfKhE0EY6Q0fvLMoV3fz56/view?usp=share_link>
 [ARTIGO]: <https://drive.google.com/file/d/1VwOb8f_wnxaSdRCm5TaePb-2nLBWyTUo/view?usp=share_link>
 [APLICATIVO]: <https://www.mediafire.com/file/r50be7sp7lm27hi/IFInfo_28-02.apk>
 
 ## 🎬 Demonstração em vídeo
-<!--   ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
- [VÍDEO]: <https://youtu.be/q-Z9jdCIuzk> -->
+<!--   ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif) -->
 
 
 Clique na imagem abaixo para assistir a um vídeo explicando o funcionamento do aplicativo e do servidor.
