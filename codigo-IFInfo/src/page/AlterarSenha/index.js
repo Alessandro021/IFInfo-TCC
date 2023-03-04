@@ -32,13 +32,13 @@ export default function AlterarSenha() {
       return Toast.show({
         type: 'error',
         text1: 'Alerta',
-        text2: 'Os campos de Senha Atual não podem esta vazio!'
+        text2: 'O campo de Senha Atual não podem esta vazio!'
       })
     }else if(senha ==""){
       return Toast.show({
         type: 'error',
         text1: 'Alerta',
-        text2: 'Os campos de Senha não podem esta vazio!'
+        text2: 'O campos de Nova Senha não podem esta vazio!'
       })
     }else if(senha1 == ""){
       return Toast.show({

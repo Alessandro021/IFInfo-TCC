@@ -37,7 +37,6 @@ const styles = StyleSheet.create({
     
       },
       tituloComponente: {
-        fontWeight: "900",
         fontFamily: THEME.FONTS.r900,
         fontSize: RFValue(14),
         color: "#008001",
@@ -46,7 +45,6 @@ const styles = StyleSheet.create({
       descricaoComponente:{
         fontSize: RFValue(10),
         fontFamily: THEME.FONTS.r300,
-        // fontWeight: "300",
         color: "#008001",
       },
       imageCajui:{

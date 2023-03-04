@@ -41,11 +41,10 @@ export default function ListaAdministrativos({data}) {
     })
  return (
    <SafeAreaView style={styles.container} >
-            {/* <View style={styles.viewServidor}> */}
                 <TouchableOpacity style={styles.bntAdministrativos} onPress={() => alternarItensDalista()} >
                     <View style={styles.viewBnt}>
                         <View style={styles.viewNome}>
-                            <FontAwesome style={{marginHorizontal: 10}} name="user-circle-o" size={35} color="#008009" />
+                            {/* <FontAwesome style={{marginHorizontal: 10}} name="user-circle-o" size={35} color="#008009" /> */}
                             <Text style={styles.nome}>{data.nome}</Text>
                         </View>
                         
@@ -53,9 +52,8 @@ export default function ListaAdministrativos({data}) {
                             <MaterialIcons name="keyboard-arrow-down" size={35} color="#008001" />
                         </Animated.View>
                     </View>
-                    { mostrarConteudo &&  <Text style={styles.cargo} >Cargo: {data.cargo}</Text>}
+                    { mostrarConteudo &&  <Text style={styles.cargo} >CARGO: {data.cargo}</Text>}
                 </TouchableOpacity>                
-            {/* </View> */}
    </SafeAreaView>
   );
 }
@@ -73,15 +71,20 @@ const styles = StyleSheet.create({
              width: 0,
              height: 2
          },
+        borderBottomWidth: 2,
+        borderStartWidth: 2,
+        borderStartColor: '#008001',
+        borderBottomColor: '#008001',
        shadowOpacity: 0.5,
        shadowOpacity: 0.26,
        shadowRadius: 8,
        borderRadius: 10,
-       elevation: 5,
+       elevation: 6,
        overflow: 'hidden',
     },
     bntAdministrativos:{
         // width: "100%",
+        paddingLeft: 20,
         paddingHorizontal: 10,
         paddingVertical: 10,
     },
@@ -92,9 +95,9 @@ const styles = StyleSheet.create({
     },
     viewNome:{
         width: "90%",
-        flexDirection: 'row',
-        alignItems: 'center',
-        justifyContent: 'flex-start',
+        // flexDirection: 'row',
+        // alignItems: 'center',
+        // justifyContent: 'flex-start',
     },
     viewIcon:{
         alignItems: 'center',
@@ -105,18 +108,16 @@ const styles = StyleSheet.create({
         // width: "90%",
         fontSize: RFValue(12),
         fontFamily: THEME.FONTS.r900,
-        // fontWeight: 'bold',
-        textAlign: 'center',
+        textAlign: 'left',
         color: "#008001"
     },
     cargo: {
         fontSize: RFValue(10),
         fontFamily: THEME.FONTS.r700,
-        // fontWeight: 'bold',
-        textAlign: 'center',
+        textAlign: 'left',
         marginTop: 10,
         marginBottom: 20,
-        opacity: .6
+        opacity: .7
     },
     
 });

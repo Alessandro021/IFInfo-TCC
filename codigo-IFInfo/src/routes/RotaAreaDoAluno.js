@@ -6,6 +6,8 @@ import { Feather } from '@expo/vector-icons'
 import { useNavigation, DrawerActions } from "@react-navigation/native";
 import AreaDoAluno from "../page/AreaDoAluno/index.js";
 import AlterarSenha from "../page/AlterarSenha/index.js";
+import { RFValue, RFPercentage } from "react-native-responsive-fontsize";
+import THEME from '../services/Themes'
 
 const Navigation = createStackNavigator();
 
@@ -33,6 +35,10 @@ export default function RotaAutenticacao(){
                     </TouchableOpacity>
                   ),
                 title: 'Area do Aluno',
+                headerTitleStyle:{
+                    fontSize: RFValue(14),
+                    fontFamily: THEME.FONTS.r500,
+                },
                 headerTitleAlign: 'center',
                 headerTintColor: '#FFFFFF',
                 headerStyle: {
@@ -48,6 +54,9 @@ export default function RotaAutenticacao(){
             component={Web}
             options={({route}) => ({
                 title: route.params?.titulo,
+                headerTitleStyle:{
+                    fontFamily: THEME.FONTS.r500,
+                },
                 headerTitleAlign: 'center',
                 headerTintColor: '#FFFFFF',
                 headerStyle: {
@@ -61,6 +70,9 @@ export default function RotaAutenticacao(){
             name="Alterar Senha"
             component={AlterarSenha}
             options={{
+                headerTitleStyle:{
+                    fontFamily: THEME.FONTS.r500,
+                },
                 headerTitleAlign: 'center',
                 headerTintColor: '#FFFFFF',
                 headerStyle: {

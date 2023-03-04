@@ -52,7 +52,7 @@ export default function ListaDocente({data}) {
                 <TouchableOpacity style={styles.bntDocente} onPress={() => alternarItensDalista()} >
                     <View style={styles.viewBnt}>
                         <View style={styles.viewNome}>
-                            <FontAwesome style={{marginHorizontal: 10}} name="user-circle-o" size={35} color="#008009" />
+                            {/* <FontAwesome style={{marginHorizontal: 10}} name="user-circle-o" size={35} color="#008009" /> */}
                             <Text style={styles.nome}>{data.nome}</Text>
                         </View>
                         <Animated.View style={[styles.viewIcon, {transform: [{ rotateZ: mudarSeta }]} ]}>
@@ -63,7 +63,7 @@ export default function ListaDocente({data}) {
                 
                 { mostrarConteudo &&
                 <View style={styles.conteudo}>
-                        <Text style={styles.area} >Área de Ensino: {data.area}</Text>
+                        <Text style={styles.area} >ÁREA DE ENSINO: {data.area}</Text>
                     <View style={styles.viewEmailCurriculo}>
 
                         {data.curriculo && 
@@ -98,7 +98,7 @@ export default function ListaDocente({data}) {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        marginHorizontal: 15,
+        marginHorizontal: 10,
         marginVertical: 5,
         backgroundColor: '#FFFFFF',
         borderRadius: 8,
@@ -107,6 +107,10 @@ const styles = StyleSheet.create({
              width: 0,
              height: 2
          },
+        borderBottomWidth: 2,
+        borderStartWidth: 2,
+        borderStartColor: '#008001',
+        borderBottomColor: '#008001',
        shadowOpacity: 0.5,
        shadowOpacity: 0.26,
        shadowRadius: 8,
@@ -144,10 +148,11 @@ const styles = StyleSheet.create({
     area: {
         fontSize: RFValue(10),
         fontFamily: THEME.FONTS.r700,
-        // fontWeight: 'bold',
-        textAlign: 'center',
+        textAlign: 'left',
         marginTop: 10,
-        opacity: .6
+        opacity: .7,
+        paddingLeft: 15
+
     },
     conteudo:{
     },

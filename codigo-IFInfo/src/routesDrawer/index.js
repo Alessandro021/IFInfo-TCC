@@ -15,7 +15,7 @@ import RotaAreaDoAluno from '../routes/RotaAreaDoAluno.js'
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Ionicons } from '@expo/vector-icons';
 import { RFValue, RFPercentage } from "react-native-responsive-fontsize";
-import THEME from '../services/Themes.js'
+import THEME from '../services/Themes'
 
 
 const Drawer = createDrawerNavigator();
@@ -33,10 +33,8 @@ export default function RoutesDrawer(){
             },
 
             drawerLabelStyle: {
-                fontWeight: 'bold',
                 fontSize: RFValue(12),
-                fontFamily: THEME.FONTS.r700,
-                // fontWeight: '700',
+                fontFamily: THEME.FONTS.r900,
             },
 
             // drawerHideStatusBarOnOpen: true,

@@ -23,6 +23,8 @@ import Routes from './src/routes';
 import AuthProvider from './src/contextos/dados.js'
 import Notificacao from './src/component/Notificacao';
 import Toast, { BaseToast, ErrorToast } from 'react-native-toast-message';
+import { RFValue, RFPercentage } from "react-native-responsive-fontsize";
+import THEME from './src/services/Themes'
 
 export default function App() {
 
@@ -69,26 +71,29 @@ export default function App() {
     success: (props) => (
       <BaseToast
         {...props}
-        style={{ borderLeftColor: '#008001',  width: "90%" }}
+        style={{ borderLeftColor: '#008001',  width: "90%", height: 70 }}
         contentContainerStyle={{ paddingHorizontal: 15 }}
         text1Style={{
-          fontSize: 15,
-          fontWeight: '400'
+          fontSize: RFValue(10),
+          fontFamily: THEME.FONTS.r400,
         }}
         text2Style={{
-          fontSize: 15
+          fontSize: RFValue(9),
+          fontFamily: THEME.FONTS.r900,
         }}
       />
     ),
     error: (props) => (
       <ErrorToast
-      style={{ borderLeftColor: '#FF0000', width: "90%" }}
+      style={{ borderLeftColor: '#FF0000', width: "90%", height: 70 }}
         {...props}
         text1Style={{
-          fontSize: 17
+          fontSize: RFValue(10),
+          // fontFamily: THEME.FONTS.r400,
         }}
         text2Style={{
-          fontSize: 15
+          fontSize: RFValue(9),
+          fontFamily: THEME.FONTS.r900,
         }}
         text2NumberOfLines={2}
       />

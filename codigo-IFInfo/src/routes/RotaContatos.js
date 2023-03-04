@@ -4,6 +4,8 @@ import Contatos from "../page/Contatos/index.js";
 import { TouchableOpacity } from "react-native";
 import { Feather } from '@expo/vector-icons'
 import { useNavigation, DrawerActions } from "@react-navigation/native";
+import { RFValue, RFPercentage } from "react-native-responsive-fontsize";
+import THEME from '../services/Themes'
 
 const Navigation = createStackNavigator();
 
@@ -25,6 +27,9 @@ export default function RotaContatos(){
             component={Contatos}
             options={{
                 title: "Contatos",
+                headerTitleStyle:{
+                    fontFamily: THEME.FONTS.r500,
+                },
                 headerShadowVisible: false,
                 headerLeft: () => (
                     <TouchableOpacity style={{width: 50,height: 50,alignItems: "center",justifyContent: "center"

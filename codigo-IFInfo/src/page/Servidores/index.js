@@ -1,6 +1,8 @@
 import React,{ useState} from 'react';
 import {useWindowDimensions } from 'react-native';
 import  {  TabView ,  SceneMap, TabBar }  from  'react-native-tab-view' ;
+import { RFValue, RFPercentage } from "react-native-responsive-fontsize";
+import THEME from '../../services/Themes'
 import Administrativos from '../Administrativos';
 import Docentes from '../Docentes/index.js';
 
@@ -14,6 +16,8 @@ const renderTabBar = props => (
     {...props}
     indicatorStyle={{ backgroundColor: 'white' }}
     style={{ backgroundColor: '#008001' }}
+    labelStyle={{ fontSize: RFValue(11),
+      fontFamily: THEME.FONTS.r500,}}
   />
 );
 

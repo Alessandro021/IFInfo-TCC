@@ -107,7 +107,7 @@ export default function Home(){
         Toast.show({
           type: 'error',
           text1: "Alerta",
-          text2: "Nenhuma noticia foi encontrada na data " + data,
+          text2: "Nenhuma notícia foi encontrada na data " + data,
           onPress: () =>{ atualizaHome(), Toast.hide()}
         })
       }
@@ -125,12 +125,12 @@ export default function Home(){
         { loader && <Loader /> }
 
         { loaderList && 
-        <FlashList
+        <FlatList
           data={noticias}
           showsVerticalScrollIndicator={false}
           keyExtractor={(item) => String(item.id)}
           renderItem={({ item }) => <CardNews data={item} />}
-          estimatedItemSize={250}
+          // estimatedItemSize={250}
           // ListEmptyComponent={<View style={styles.ViewListaVazia}><Text style={styles.listaVazia}>Nenhuma noticia foi encontrada</Text></View>}
           refreshControl={
             <RefreshControl 
