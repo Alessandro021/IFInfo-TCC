@@ -24,5 +24,5 @@ Neste repositório, você encontrará os seguintes arquivos:
 [Video]: <https://youtu.be/q-Z9jdCIuzk>
 [Documentação]: https://drive.google.com/file/d/15kFAlcC83LrfKhE0EY6Q0fvLMoV3fz56/view?usp=share_link>
 [Artigo]: <https://drive.google.com/file/d/18O-kjq9uRPTF_oqLWyl93k4_jz5rg3MH/view?usp=share_link>
-[Aplicativo]: <https://download1497.mediafire.com/cklayadz7gigo0N56hMR7H901-6rwTMUwiwsLTTwzVYC0JI5UlyYu6gVjLV18LWSs69gwQMmmXyhAaXalVOmlMJDgoB9QBs/r50be7sp7lm27hi/IFInfo_28-02.apk>
+[Aplicativo]: <https://www.mediafire.com/file/r50be7sp7lm27hi/IFInfo_28-02.apk>
 
