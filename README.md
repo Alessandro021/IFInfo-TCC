@@ -9,7 +9,7 @@ Meu TCC é sobre o desenvolvimento de um aplicativo de notícias e informações
 Neste repositório, você encontrará os seguintes arquivos:
 
 - 📄 [DOCUMENTAÇÃO](./documentacao/DOCUMENTAÇÃO-IFINFO.pdf): Este repositório contém a documentação do aplicativo em formato de PDF.
-- 📝 [ARTIGO](./artigo/Artigo1.pdf): Este repositório contém o artigo que escrevi em formato de PDF.
+- 📝 [ARTIGO](./artigo/Artigo.pdf): Este repositório contém o artigo que escrevi em formato de PDF.
 - 🎥 [VÍDEO DE EXPLICAÇÃO DO SOFTWARE](./video-explicacao/video-youtube.txt): Este repositório contém o link do vídeo no YouTube.
 - 📱 [APK IFInfo](./apk(aplicativo)/): Este repositório contém o aplicativo para download.
 - 💻 [CÓDIGO IFInfo](./codigo-IFInfo/): Este repositório contém todo o código do aplicativo, que foi desenvolvido utilizando o React Native e a biblioteca Expo-cli.
