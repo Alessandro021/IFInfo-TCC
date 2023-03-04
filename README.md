@@ -22,7 +22,7 @@ Neste repositório, você encontrará os seguintes arquivos:
 - 📝 [ARTIGO] - Acesse o artigo do aplicativo.
 - 📱 [APLICATIVO] - Clique e faça o download do aplicativo.
 
-[VÍDEO]: <https://youtu.be/q-Z9jdCIuzk>
+<!--  [VÍDEO]: <https://youtu.be/q-Z9jdCIuzk> -->
 [DOCUMENTAÇÃO]: <https://drive.google.com/file/d/15kFAlcC83LrfKhE0EY6Q0fvLMoV3fz56/view?usp=share_link>
 [ARTIGO]: <https://drive.google.com/file/d/1VwOb8f_wnxaSdRCm5TaePb-2nLBWyTUo/view?usp=share_link>
 [APLICATIVO]: <https://www.mediafire.com/file/r50be7sp7lm27hi/IFInfo_28-02.apk>
@@ -32,4 +32,4 @@ Neste repositório, você encontrará os seguintes arquivos:
 
 Clique na imagem abaixo para assistir a um vídeo explicando o funcionamento do aplicativo e do servidor.
 
-![Alt Text](https://www.youtube.com/watch?v=q-Z9jdCIuzk)
+[![Demo do aplicativo e servidor](https://img.youtube.com/vi/q-Z9jdCIuzk/0.jpg)](https://www.youtube.com/watch?v=q-Z9jdCIuzk)
