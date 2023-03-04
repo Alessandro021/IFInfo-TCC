@@ -28,8 +28,8 @@ Neste repositório, você encontrará os seguintes arquivos:
 [APLICATIVO]: <https://www.mediafire.com/file/r50be7sp7lm27hi/IFInfo_28-02.apk>
 
 ## Demonstração em vídeo
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+<!--   ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)  -->
 
 Clique na imagem abaixo para assistir a um vídeo explicando o funcionamento do aplicativo e do servidor.
 
-[![Demo do aplicativo e servidor](https://img.youtube.com/vi/q-Z9jdCIuzk/0.jpg)](https://www.youtube.com/watch?v=q-Z9jdCIuzk)
+![Demo do aplicativo e servidor](https://www.youtube.com/watch?v=q-Z9jdCIuzk)
