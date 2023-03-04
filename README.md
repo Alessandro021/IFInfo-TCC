@@ -32,4 +32,4 @@ Neste repositório, você encontrará os seguintes arquivos:
 
 Clique na imagem abaixo para assistir a um vídeo explicando o funcionamento do aplicativo e do servidor.
 
-![Demo do aplicativo e servidor](https://www.youtube.com/watch?v=q-Z9jdCIuzk)
+![Alt Text](https://www.youtube.com/watch?v=q-Z9jdCIuzk)
